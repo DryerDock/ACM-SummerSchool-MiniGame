@@ -1,6 +1,8 @@
 using UnityEngine;
-//For students to see
-public class ObsticaleSpawner : MonoBehaviour
+/// <summary>
+/// For students to see potentially not sure yet
+/// </summary>
+public class ObstacleSpawner : MonoBehaviour
 {
     public GameObject[] obstacles;
     public Transform spawnPoint;

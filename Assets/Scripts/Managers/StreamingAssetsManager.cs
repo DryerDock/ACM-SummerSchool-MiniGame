@@ -2,7 +2,9 @@ using System.Collections;
 using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
-
+/// <summary>
+/// DO NOT TOUCH THIS THINGS WILL BREAK ----WIP----
+/// </summary>
 public class StreamingAssetsManager : MonoBehaviour
 {
     public IEnumerator LoadSprite(string fileName,System.Action<Sprite> onLoaded)

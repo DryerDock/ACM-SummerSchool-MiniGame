@@ -1,5 +1,7 @@
 using UnityEngine;
-//For students to see
+/// <summary>
+/// For students to see and edit
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     public float jumpForce = 10f;

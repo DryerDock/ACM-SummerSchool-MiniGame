@@ -1,5 +1,5 @@
 using UnityEngine;
-
+//For students to see
 public class ScoreOverTime : MonoBehaviour
 {
     public float pointsPerSecond = 1f;

@@ -1460,7 +1460,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1443538618}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e36e5ad9f4c74347ac26b027d2bc21c, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b7596439b268fe4b9549be57eee698c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObsticaleSpawner
   obstacles:

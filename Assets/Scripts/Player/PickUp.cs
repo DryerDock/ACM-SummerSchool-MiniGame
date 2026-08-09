@@ -1,6 +1,7 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
-//For students to see
+/// <summary>
+/// For students to see and edit
+/// </summary>
 public class PickUp : MonoBehaviour
 {
     public int scoreValue = 10;

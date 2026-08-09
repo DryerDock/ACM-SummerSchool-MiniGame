@@ -1,5 +1,5 @@
 using UnityEngine;
-
+//For students to see
 public class ScoreManager : MonoBehaviour
 {
     //A static variable just means there should only be one type of this script
@@ -17,10 +17,5 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int amount)
     {
         Score += amount;
-    }
-
-    public void ResetScore()
-    {
-        Score = 0;
     }
 }

@@ -1,5 +1,7 @@
 using UnityEngine;
-//For students to see
+/// <summary>
+/// For students to see and edit
+/// </summary>
 public class WorldMover : MonoBehaviour
 {
     public float moveSpeed = 5f;
