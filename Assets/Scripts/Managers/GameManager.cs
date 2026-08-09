@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//For students to see
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
-    public bool GameIsRunning { get; private set; }
+    public bool GameIsRunning;
 
     private void Awake()
     {
@@ -18,12 +18,14 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        Time.timeScale = 1.0f;
         GameIsRunning = true;
     }
 
     public void GameOver()
     {
         GameIsRunning = false;
+        Time.timeScale = 0.0f;
     }
 
     public void RestartGame()

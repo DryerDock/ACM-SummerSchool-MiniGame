@@ -1,8 +1,9 @@
 using UnityEngine;
-
+//For students to see
 public class PlayerController : MonoBehaviour
 {
     public float jumpForce = 10f;
+
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -10,7 +11,16 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        isGrounded = true;
     }
+
+/*    private void Update()
+    {
+        if (JumpPressed() && isGrounded)
+        {
+            Jump();
+        }
+    }*/
 
     //If the player presses the spacebar and isGrounded is set to true.
     private void Update()
@@ -20,6 +30,18 @@ public class PlayerController : MonoBehaviour
             Jump();
         }
     }
+
+    /*private bool JumpPressed()
+    {
+        bool keyboard = Input.GetKeyDown(KeyCode.Space);
+        keyboard |= Input.GetKeyDown(KeyCode.UpArrow);
+
+        bool mouse = Input.GetMouseButtonDown(0);
+        bool touch = Input.touchCount > 0 &&
+                     Input.GetTouch(0).phase == TouchPhase.Began;
+
+        return keyboard || mouse || touch;
+    }*/
 
     //Current velocity is equal to the current x velocity multiplied by the jumpForce
     private void Jump()

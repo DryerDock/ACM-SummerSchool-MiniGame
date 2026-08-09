@@ -1,5 +1,5 @@
 using UnityEngine;
-
+//For students to see
 public class ObsticaleSpawner : MonoBehaviour
 {
     public GameObject[] obstacles;

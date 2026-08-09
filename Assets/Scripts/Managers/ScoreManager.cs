@@ -6,7 +6,7 @@ public class ScoreManager : MonoBehaviour
     //also refereed to as the instance of said script
     public static ScoreManager Instance;
 
-    public int Score { get; private set; }
+    public float Score { get; private set; }
 
     private void Awake()
     {
