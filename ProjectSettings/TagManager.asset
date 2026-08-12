@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - PickUp
+  - Obstacle
+  - BossPickUp
   layers:
   - Default
   - TransparentFX

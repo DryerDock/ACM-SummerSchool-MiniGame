@@ -1467,6 +1467,7 @@ MonoBehaviour:
   - {fileID: 2010088236380576902, guid: 6d5e8dad4b9eb5c48be48289b242cc0c, type: 3}
   - {fileID: 2010088236380576902, guid: d9625ab4f927a8b4ea61512235db951e, type: 3}
   - {fileID: 2010088236380576902, guid: 801c6f4912d48fe498c3c9620320e0ef, type: 3}
+  - {fileID: 6925962023856251852, guid: 7edeef2523087e145b603b275ee89517, type: 3}
   spawnPoint: {fileID: 1181915151}
   minSpawnTime: 1
   maxSpawnTime: 3
