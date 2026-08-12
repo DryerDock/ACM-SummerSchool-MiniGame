@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Test : MonoBehaviour
+public class MainMenuManager : MonoBehaviour
 {
     public void StartGame()
     {

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/main menu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 9c050abbd4517684db00d06ba14c32dc
   - enabled: 1
     path: Assets/Scenes/DinoMiniGameScene.unity
