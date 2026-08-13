@@ -2013,7 +2013,7 @@ MonoBehaviour:
   - {fileID: 8543622297979940524, guid: 76107f8f78cae07459baad788a1832db, type: 3}
   - {fileID: 7206375794995978097, guid: ff6a8a55e80496a478878d262a63369e, type: 3}
   - {fileID: 4952430161174931390, guid: f454179afb86433448844c8433ad68ed, type: 3}
-  nextAttackTime: 0
+  nextAttackTime: 2
   minAttackTime: 2
   maxAttackTime: 5
   lastAttackIndex: -1
@@ -2086,11 +2086,11 @@ SceneRoots:
   m_Roots:
   - {fileID: 1764806938}
   - {fileID: 1938453097}
+  - {fileID: 1786579309}
+  - {fileID: 1014178604}
   - {fileID: 1053134845}
   - {fileID: 1366275752}
   - {fileID: 816490818}
-  - {fileID: 1786579309}
-  - {fileID: 1014178604}
   - {fileID: 454422682}
   - {fileID: 874424811}
   - {fileID: 156634484}

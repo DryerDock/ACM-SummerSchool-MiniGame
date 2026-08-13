@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7718218944749920622}
   - component: {fileID: 1241314214058651953}
   - component: {fileID: 649108079300392137}
+  - component: {fileID: 2293341304561989896}
   m_Layer: 0
   m_Name: BossAttackRight
   m_TagString: Obstacle
@@ -174,3 +175,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6bc2411199bc7f49af019f126bd20c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obsticales
+--- !u!114 &2293341304561989896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4952430161174931390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54397b7d081e984993609dd7e688763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectCleanUp

@@ -1359,9 +1359,9 @@ GameObject:
   - component: {fileID: 1443538629}
   - component: {fileID: 1443538628}
   - component: {fileID: 1443538627}
-  - component: {fileID: 1443538626}
   - component: {fileID: 1443538625}
   - component: {fileID: 1443538624}
+  - component: {fileID: 1443538631}
   m_Layer: 0
   m_Name: GameManagerObj
   m_TagString: Untagged
@@ -1391,7 +1391,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1443538618}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5707aac56c8b2414f8bfbf0c0a5690a7, type: 3}
   m_Name: 
@@ -1412,18 +1412,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreOverTime
   pointsPerSecond: 1
---- !u!114 &1443538626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1443538618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0d8f97526aaaa44e89e7e9cae6aad33, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StreamingAssetsManager
 --- !u!114 &1443538627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1467,10 +1455,9 @@ MonoBehaviour:
   - {fileID: 2010088236380576902, guid: 6d5e8dad4b9eb5c48be48289b242cc0c, type: 3}
   - {fileID: 2010088236380576902, guid: d9625ab4f927a8b4ea61512235db951e, type: 3}
   - {fileID: 2010088236380576902, guid: 801c6f4912d48fe498c3c9620320e0ef, type: 3}
-  - {fileID: 6925962023856251852, guid: 7edeef2523087e145b603b275ee89517, type: 3}
   spawnPoint: {fileID: 1181915151}
-  minSpawnTime: 1
-  maxSpawnTime: 3
+  minSpawnTime: 1.5
+  maxSpawnTime: 3.5
 --- !u!114 &1443538630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1484,6 +1471,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   GameIsRunning: 0
+--- !u!114 &1443538631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443538618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0c444642b3e98b4598db9a536a8b364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelCheckManager
+  scoreToProgress: 10
 --- !u!1 &1446739259
 GameObject:
   m_ObjectHideFlags: 0

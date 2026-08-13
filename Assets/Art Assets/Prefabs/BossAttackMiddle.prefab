@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5965248815172699648}
   - component: {fileID: 4325184557429199515}
   - component: {fileID: 6131519247745953121}
+  - component: {fileID: -5720731797478811547}
   m_Layer: 0
   m_Name: BossAttackMiddle
   m_TagString: Obstacle
@@ -174,3 +175,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6bc2411199bc7f49af019f126bd20c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obsticales
+--- !u!114 &-5720731797478811547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7206375794995978097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54397b7d081e984993609dd7e688763, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectCleanUp
